@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.idoid.trinom2.MainActivity">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:id="@+id/webv">
+
+
+    </WebView>
+
+    <EditText
+        android:id="@+id/editt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_weight="0.7"
+        android:hint="a"/>
+
+    <EditText
+        android:id="@+id/editt2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="b"/>
+
+    <EditText
+        android:id="@+id/editt3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="c"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text=" press for graph"
+        android:onClick="press"/>
+
+</LinearLayout>
+
